@@ -9,3 +9,12 @@ Implementations of map(), filter() and reduce() are based on descriptions of cor
 Array.prototype.map() - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
 Array.prototype.filter() - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
 Array.prototype.reduce() - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce
+
+# Setup Instructions
+
+0. Install node, npm and git
+1. Open command prompt (bash, cmdu etc.)
+1. git clone https://github.com/r4nd0m/catenate-starter-tasks-r4nd0m
+2. cd catenate-starter-tasks-r4nd0m/01-medium-reduce
+3. npm install
+4. npm start
