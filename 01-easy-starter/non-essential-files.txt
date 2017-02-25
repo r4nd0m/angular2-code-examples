@@ -1,7 +1,0 @@
-.git
-.gitignore
-*.spec*.ts
-CHANGELOG.md
-non-essential-files.txt
-non-essential-files.osx.txt
-README.md
