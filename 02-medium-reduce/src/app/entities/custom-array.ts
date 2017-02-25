@@ -43,7 +43,7 @@ export class CustomArray {
 		return result;
 	}
 
-	//  applies a function against an accumulator and each value of the array (from left-to-right) to reduce it to a single value.
+	// applies a function against an accumulator and each value of the array (from left-to-right) to reduce it to a single value.
 	public reduce = function(callback: Function, initialValue: any) {
 		let i: number, result: any;
 
