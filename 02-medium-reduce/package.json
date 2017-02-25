@@ -1,7 +1,7 @@
 {
-  "name": "angular-quickstart",
+  "name": "custom-array-functions",
   "version": "1.0.0",
-  "description": "QuickStart package.json from the documentation, supplemented with testing support",
+  "description": "Implement custom map(), filter and reduce() functions",
   "scripts": {
     "build": "tsc -p src/",
     "build:watch": "tsc -p src/ -w",
@@ -11,7 +11,8 @@
     "lint": "tslint ./src/**/*.ts -t verbose"
   },
   "keywords": [],
-  "author": "",
+  "author": "Vladimir Kalenyuk (vladimir.kalenyuk@gmail.com)",
+  "homepage": "https://github.com/r4nd0m/catenate-starter-tasks-r4nd0m/tree/master/02-medium-reduce#readme",
   "license": "MIT",
   "dependencies": {
     "@angular/common": "~2.4.0",
@@ -42,5 +43,8 @@
     "@types/node": "^6.0.46",
     "@types/jasmine": "2.5.36"
   },
-  "repository": {}
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/r4nd0m/catenate-starter-tasks-r4nd0m.git"
+  }
 }
