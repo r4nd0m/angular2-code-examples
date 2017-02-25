@@ -10,3 +10,15 @@ Then choose one UI element from an image and implement it. UI elements are left 
   <img src="https://cloud.githubusercontent.com/assets/1796022/21141364/fc88b5b6-c13c-11e6-83c0-8b8894460b43.png">
 </p>
 
+# Angular 2 with d3.js
+
+Created with angular-cli (sorry, spent too much time trying to make it work with the seed project)
+
+# Setup Instructions
+
+0. Install node, npm and git
+1. Open command prompt (bash, cmd etc.)
+1. git clone https://github.com/r4nd0m/catenate-starter-tasks-r4nd0m
+2. cd catenate-starter-tasks-r4nd0m/03-hard-d3
+3. npm install
+4. npm start
