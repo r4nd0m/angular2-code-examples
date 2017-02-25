@@ -1,1 +1,0 @@
-.git .gitignore CHANGELOG.md LICENSE non-essential-files.txt README.md
