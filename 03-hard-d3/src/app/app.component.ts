@@ -8,27 +8,32 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 	data: Array<any> = [];
+	isFullScale: boolean = false;
 
-	changeData = () => {
+	generateData = () => {
 		this.data = [{
 			"label": "Total Users",
-			"value": Math.random() * 100
+			"value": Math.random() * 10000
 		},
 		{
 			"label": "Requests",
-			"value": Math.random() * 100
+			"value": Math.random() * 10000
 		},
 		{
 			"label": "Timeouts",
-			"value": Math.random() * 100
+			"value": Math.random() * 10000
 		},
 		{
 			"label": "Latches",
-			"value": Math.random() * 100
+			"value": Math.random() * 10000
 		}];
 	}
 
+	toggleFullScale = () => {
+		this.isFullScale = !this.isFullScale;
+	}
+
 	constructor(){
-		this.changeData();
+		this.generateData();
 	}
 }

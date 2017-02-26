@@ -18,9 +18,14 @@ export class ChartComponent implements OnChanges, AfterViewInit {
 
 	@Input() data: Array<any> = [];
 
+
+	// chart stretching depending on isFullScale setting: 
+	// 		true - the biggest value has 100% of width
+	//		false - the biggest value has 90% of width (default)
+	@Input() isFullScale: boolean = true;
+
 	private htmlElement: HTMLElement;
 	private host;
-	private chart;
 	private initialized: boolean = false;
 
 	constructor() { }
@@ -39,20 +44,50 @@ export class ChartComponent implements OnChanges, AfterViewInit {
 	}
 
 	private render(): void {
-		this.chart = this.host
-			.selectAll("div")
-			.data(this.data)
-			.classed("bar", true)
-			.style("width", d => d.value + '%')
+		let chart, barLines, scaleRatio;
+
+		chart = this.host
+			.selectAll("div.bar-line").data(this.data)
 		
-		this.chart
+		barLines = chart // build and append new lines of the chart
 			.enter()
 				.append("div")
-				.classed("bar", true)
-				.style("width", d => d.value + '%')
+				.classed("bar-line", true);
+		barLines.append("label");
+		barLines.append("div")
+			.classed("bar", true)
+				.append("div")
+				.classed("bar-progress", true);;
+		barLines.append("div")
+			.classed("value", true)
 
-		this.chart.exit()
+		chart.exit()
 			.remove();
+
+		// refresh chart data
+		this.host.selectAll("div.bar-line label")
+			.data(this.data)
+			.text(d => d.label);
+
+		scaleRatio = this.getScaleRatio(); 
+		this.host.selectAll("div.bar-line div.bar-progress")
+			.data(this.data)
+			 // expanding the biggest value to the full width preserving proportions of the other values
+			.style("width", d => scaleRatio * d.value + "%");
+
+		this.host.selectAll("div.bar-line div.value")
+			.data(this.data)
+			.text(d => this.formatValue(d.value));
+	}
+
+	private formatValue = d3.format(",d");
+
+	private getScaleRatio = (): number => {
+		let result = (this.isFullScale ? 100 : 90) / this.data.reduce((acc, item) => {
+			return acc > item.value ? acc : item.value;
+		}, 1);
+
+		return result;
 	}
 
 }
