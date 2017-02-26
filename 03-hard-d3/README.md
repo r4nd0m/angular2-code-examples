@@ -1,3 +1,9 @@
+# Timing
+
+~3.5 hrs trying to make it work with the seed project
+~0.5 hrs installing using angular-cli
+~4.5 hrs to build a component
+
 #Instructions
 
 Please use the seed from the task `easy-starter` and integrate D3 library into it.

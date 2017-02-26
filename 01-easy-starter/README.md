@@ -1,3 +1,7 @@
+# Timing
+
+~1 hr
+
 # Angular 2 Minimal Project
 
 Based on Angular 2 quickstart seed https://angular.io/docs/ts/latest/guide/setup.html
