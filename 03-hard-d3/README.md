@@ -22,3 +22,6 @@ Created with angular-cli (sorry, spent too much time trying to make it work with
 2. cd catenate-starter-tasks-r4nd0m/03-hard-d3
 3. npm install
 4. npm start
+
+#Result
+![alt tag](https://github.com/r4nd0m/catenate-starter-tasks-r4nd0m/blob/master/03-hard-d3/src/assets/result.png?raw=true)
