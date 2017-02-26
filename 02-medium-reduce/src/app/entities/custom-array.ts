@@ -44,7 +44,7 @@ export class CustomArray {
 	}
 
 	// applies a function against an accumulator and each value of the array (from left-to-right) to reduce it to a single value.
-	public reduce = function(callback: Function, initialValue: any) {
+	public reduce = function(callback: Function, initialValue?: any) {
 		let i: number, result: any;
 
 		if (initialValue !== null && typeof initialValue !== 'undefined') {
@@ -70,5 +70,5 @@ export class CustomArray {
 
 	public get = (): Array<any> => this.internalArray;
 
-	public set = (arrayToSet: Array<any>) => this.internalArray = arrayToSet;
+	public set = (arrayToSet: Array<any>) => this.internalArray = arrayToSet.slice();
 }
