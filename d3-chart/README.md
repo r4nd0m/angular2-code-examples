@@ -1,7 +1,3 @@
-# Timing
-
-~4.5 hrs to build a component
-
 # Instructions
 
 Implement a progress bar element using D3 library.
@@ -17,3 +13,8 @@ Implement a progress bar element using D3 library.
 
 # Result
 ![alt tag](https://github.com/r4nd0m/code-examples/blob/master/d3-chart/src/assets/result.png?raw=true)
+
+# Timing
+
+~4.5 hrs to build a component from scratch
+
