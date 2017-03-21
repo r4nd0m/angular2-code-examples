@@ -1,8 +1,4 @@
-# Timing
-
-~2.5 hrs
-
-# Instructions
+# Task
 
 Implement `.map`, `.filter`, `.reduce` in TypeScript and describe what they do.
 
@@ -25,3 +21,7 @@ Array.prototype.reduce() - https://developer.mozilla.org/en-US/docs/Web/JavaScri
 
 # Result
 ![alt tag](https://github.com/r4nd0m/code-examples/blob/master/custom-array-functions/src/assets/result.png?raw=true)
+
+# Programming time
+
+~2.5 hrs
