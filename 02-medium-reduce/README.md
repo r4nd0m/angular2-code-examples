@@ -22,3 +22,6 @@ Array.prototype.reduce() - https://developer.mozilla.org/en-US/docs/Web/JavaScri
 2. cd code-examples/02-medium-reduce
 3. npm install
 4. npm start
+
+# Result
+![alt tag](https://github.com/r4nd0m/code-examples/blob/master/02-medium-reduce/src/assets/result.png?raw=true)
