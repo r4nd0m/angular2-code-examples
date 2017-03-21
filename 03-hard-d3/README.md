@@ -26,5 +26,5 @@ Selected UI element - progress bars
 3. npm install
 4. npm start
 
-#Result
+# Result
 ![alt tag](https://github.com/r4nd0m/code-examples/blob/master/03-hard-d3/src/assets/result.png?raw=true)
