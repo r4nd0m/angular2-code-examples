@@ -1,6 +1,6 @@
 # Task
 
-Implement a progress bar element using D3 library.
+Implement a progress bar component using D3 library.
 
 # Setup Instructions
 
