@@ -1,21 +1,10 @@
 # Timing
 
-~3.5 hrs trying to make it work with the seed project
-~0.5 hrs installing using angular-cli
 ~4.5 hrs to build a component
 
 # Instructions
 
-Implement one of the UI elements from an image. UI elements are left menu, graf, CPU circles and process bars.
-
-<p align="center">
-  <img src="https://cloud.githubusercontent.com/assets/1796022/21141364/fc88b5b6-c13c-11e6-83c0-8b8894460b43.png">
-</p>
-
-# Angular 2 with d3.js
-
-Created with angular-cli
-Selected UI element - progress bars
+Implement a progress bar element using D3 library.
 
 # Setup Instructions
 
