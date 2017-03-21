@@ -18,7 +18,7 @@ Array.prototype.reduce() - https://developer.mozilla.org/en-US/docs/Web/JavaScri
 
 0. Install node, npm and git
 1. Open command prompt (bash, cmd etc.)
-1. git clone https://github.com/r4nd0m/catenate-starter-tasks-r4nd0m
+1. git clone https://github.com/r4nd0m/code-examples
 2. cd catenate-starter-tasks-r4nd0m/01-medium-reduce
 3. npm install
 4. npm start
