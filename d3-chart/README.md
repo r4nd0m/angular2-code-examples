@@ -12,7 +12,12 @@ Implement a progress bar component using D3 library.
 4. npm start
 
 # Result
-![alt tag](https://github.com/r4nd0m/angular2-code-examples/blob/master/d3-chart/src/assets/result.png?raw=true)
+
+![alt tag](https://github.com/r4nd0m/angular2-code-examples/blob/gh-pages/d3-chart/src/assets/result.png?raw=true)
+
+# See it in action
+
+https://r4nd0m.github.io/angular2-code-examples/
 
 # Programming Time
 
