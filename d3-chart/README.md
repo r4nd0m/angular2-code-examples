@@ -13,7 +13,7 @@ Implement a progress bar component using D3 library.
 
 # Result
 
-![alt tag](https://github.com/r4nd0m/angular2-code-examples/blob/gh-pages/d3-chart/src/assets/result.png?raw=true)
+![alt tag](https://github.com/r4nd0m/angular2-code-examples/blob/gh-pages/assets/result.png?raw=true)
 
 # See it in action
 
